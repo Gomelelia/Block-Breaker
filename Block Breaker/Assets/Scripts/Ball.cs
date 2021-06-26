@@ -18,6 +18,7 @@ public class Ball : MonoBehaviour
     // Cached component references  
     AudioSource myAudioSource; 
     void Start()
+    
     {
         paddleToBallVector = transform.position - paddle1.transform.position;
         myAudioSource = GetComponent<AudioSource>();
